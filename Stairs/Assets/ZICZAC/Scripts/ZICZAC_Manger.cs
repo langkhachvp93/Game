@@ -97,6 +97,7 @@ public class ZICZAC_Manger : MonoBehaviour {
 		ZICZAC_Ball.instance.speed=0;
 		ZICZAC_Ball.instance.isDead=false;
 		ZICZAC_Ball.instance.deadCount++;
+		ZICZAC_Ball.instance.timer=5;
 		//createcube
 		ZICZAC_CreateCube.instance.transform.position=ZICZAC_CreateCube.instance.startPos;
 		ZICZAC_CreateCube.instance.cubeCount=0;

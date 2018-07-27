@@ -11,7 +11,7 @@ public class ZICZAC_Ball : MonoBehaviour {
 	public Rigidbody myRig;
 	public Vector3 startPos;
 	public int deadCount;
-	private float timer=5;
+	public float timer=5;
 	
 	private int nextScore=100;
 	private AudioSource myAudio;
